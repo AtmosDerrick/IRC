@@ -31,7 +31,7 @@ function NavBar() {
                 />
               </svg>
             </div>
-            <h3>+6108776494 / 0243407536</h3>
+            <h3>+60 18776494 / +233 243407536</h3>
           </div>
           <div className="flex justify-between text-xs lg:text-sm ">
             <svg

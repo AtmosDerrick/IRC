@@ -8,7 +8,7 @@ function Footer() {
       </div>
       <div className="lw-full g:w-3/4 mx-auto">
         <p className="w-full text-right py-2 italic text-sm lg:text-base">
-          &copy 2023 Integrity Research and Consultancy
+          ;&copy 2023 Integrity Research and Consultancy
         </p>
       </div>
     </div>

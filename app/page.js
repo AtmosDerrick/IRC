@@ -1,13 +1,8 @@
 import NavBar from "@/components/Navbar";
 import Image from "next/image";
 import Footer from "@/components/Footer";
-
 //images
-import LandingImage from "../assets/landingimage1.png";
-import education from "../assets/education.jpg";
-import agriculture from "../assets/agriculture.jpg";
 import development from "../assets/development.jpg";
-import skills from "../assets/skills.jpg";
 export default function Home() {
   return (
     <main className="w-full mx-auto">
@@ -28,8 +23,8 @@ export default function Home() {
           </div>
         </div>
         <div className="relative">
-          <Image
-            src={LandingImage}
+          <img
+            src="landingimage1.png"
             alt="intergrity research and consultancy"
             className="w-full h-[80vh]"
           />
@@ -46,13 +41,13 @@ export default function Home() {
           how we're shaping a better future for communities in Ghana and Africa.
           Thank you for joining us on this inspiring path.
         </p>
-        <div className="mx-auto h-[4px] bg-blue-500 w-40 mt-4"></div>
+        <div className="mx-auto h-[2px] bg-blue-500 w-40 mt-4"></div>
       </div>
       <div className="w-full px-4 xl:px-0 xl:w-3/4 mx-auto mt-12">
         <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="h-[30rem] bg-gray-50 border-b-4 border-blue-500">
             <div>
-              <Image src={education} alt="education" />
+              <img src="education.jpg" alt="education" />
             </div>
             <div className="w-full flex justify-center">
               <div className="bg-blue-500 rounded-full w-16 h-16 text-xl font-extrabold flex justify-center items-center mt-[-30px] z-20">
@@ -74,7 +69,7 @@ export default function Home() {
 
           <div className="h-[30rem] bg-gray-50 border-b-4 border-blue-500">
             <div>
-              <Image src={skills} alt="education" />
+              <img src="skills.jpg" alt="education" />
             </div>
             <div className="w-full flex justify-center">
               <div className="bg-blue-500 rounded-full w-16 h-16 text-xl font-extrabold flex justify-center items-center mt-[-30px] z-20">
@@ -93,7 +88,7 @@ export default function Home() {
           </div>
           <div className="h-[30rem] bg-gray-50 border-b-4 border-blue-500">
             <div>
-              <Image src={agriculture} alt="education" />
+              <img src="agriculture.jpg" alt="education" />
             </div>
             <div className="w-full flex justify-center">
               <div className="bg-blue-500 rounded-full w-16 h-16 text-xl font-extrabold flex justify-center items-center mt-[-30px] z-20">
