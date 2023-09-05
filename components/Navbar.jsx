@@ -14,31 +14,33 @@ function NavBar() {
   return (
     <div>
       <div>
-        <nav className="xl:w-3/4 mx-auto flex justify-end h-[7vh] py-4 px-2 gap-8">
-          <div className="flex justify-between">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-6 h-6">
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
-              />
-            </svg>
+        <nav className="xl:w-3/4 mx-auto flex justify-end h-[7vh] py-4 px-1 lg:px-2 gap-4 lg:gap-8">
+          <div className="flex justify-between text-xs lg:text-sm">
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="lg:w-6 lg:h-6 w-5 h-5 pr-1">
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                />
+              </svg>
+            </div>
             <h3>+6108776494 / 0243407536</h3>
           </div>
-          <div className="flex justify-between">
+          <div className="flex justify-between text-xs lg:text-sm ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-6 h-6">
+              className="lg:w-6 lg:h-6 w-5 h-5 pr-1">
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -78,6 +80,11 @@ function NavBar() {
               <a href="/about">
                 <li className="mx-4 hidden lg:block hover:border-b-2 px-1 py-1 transition-all duration-300">
                   Projects
+                </li>
+              </a>
+              <a href="/about">
+                <li className="mx-4 hidden lg:block hover:border-b-2 px-1 py-1 transition-all duration-300">
+                  Conact Us
                 </li>
               </a>
 

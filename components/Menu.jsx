@@ -19,50 +19,31 @@ function Menu({ menu, setMenu }) {
                   Home
                 </li>
               </a>
-              <a href="/about">
+              <a href="/">
                 <li
                   className="block lg:hidden py-2"
                   onClick={() => {
                     setMenu(false);
                   }}>
-                  About
+                  About Us
                 </li>
               </a>
-              <a href="/conferenceandevent">
+              <a href="/">
                 <li
                   className="block lg:hidden py-2"
                   onClick={() => {
                     setMenu(false);
                   }}>
-                  Event
+                  Services
                 </li>
               </a>
-              <a href="/ministry">
+              <a href="/">
                 <li
                   className="block lg:hidden py-2"
                   onClick={() => {
                     setMenu(false);
                   }}>
-                  Ministries
-                </li>
-              </a>
-
-              <a href="/giving">
-                <li
-                  className="block lg:hidden py-2"
-                  onClick={() => {
-                    setMenu(false);
-                  }}>
-                  Giving
-                </li>
-              </a>
-              <a href="#footer">
-                <li
-                  className="block lg:hidden py-2"
-                  onClick={() => {
-                    setMenu(false);
-                  }}>
-                  Contact
+                  Contact Us
                 </li>
               </a>
             </ul>
